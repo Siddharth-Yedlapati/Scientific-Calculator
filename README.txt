@@ -5,6 +5,9 @@ DETAILS OF CODE TESTED
 
 The given calculator program is a console-based calculator that provides a menu-driven interface for various mathematical and scientific calculations. The program continuously prompts the user to choose an operation from a wide range of options, including basic arithmetic operations, trigonometric functions, logarithmic functions, exponential functions, unit conversions, statistical calculations, and equation solving. It uses a switch-case structure to handle the user's choice and collects input parameters when required. The calculator also includes specialized functionalities such as solving derivatives using the Power Rule, Product Rule, Chain Rule, and Logarithmic Rule. The program runs indefinitely until the user chooses to exit. Additionally, it incorporates input validation, error handling, and logging of messages using the Apache Log4j library. The user interacts with the calculator through the console, entering numbers and choices based on the displayed menu.
 
+TESTING STRATEGY USED: 
+
+Mutation testing is the strategy that we have used for the purpose of testing the functionality of our scientific calculator. We have written a test suite which contains tests for all the functions present in our codebase and we have tried to cover as much code as possible to ensure a high mutation score. We have used several mutation operators apart from the default operators used by Pit test in order to perform integration level mutation testing on our codebase.
 
 CONTRIBUTION OF MEMBERS:-
 
